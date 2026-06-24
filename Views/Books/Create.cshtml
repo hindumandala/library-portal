@@ -1,0 +1,24 @@
+@model LibraryPortal.Models.Book
+
+@{
+    ViewData["Title"] = "Add Book";
+}
+
+<h2>Add New Book</h2>
+
+<form method="post">
+    <div class="mb-3">
+        <label>Title</label>
+        <input type="text" name="Title" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label>Author</label>
+        <input type="text" name="Author" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label>Available</label>
+        <input type="checkbox" name="IsAvailable" value="true" /> Yes
+    </div>
+    <button type="submit" class="btn btn-success">Save</button>
+    <a href="/Books" class="btn btn-secondary ms-2">Back</a>
+</form>

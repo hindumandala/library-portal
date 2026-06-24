@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+@model IEnumerable<LibraryPortal.Models.Book>
+
+@{
+    ViewData["Title"] = "Books";
+}
+
+<h2>All Books</h2>
+<a href="/Books/Create" class="btn btn-success mb-3">+ Add Book</a>
+
+<table class="table table-bordered table-hover">
+    <thead class="table-dark">
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Available</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var book in Model)
+        {
+            <tr>
+                <td>@book.Title</td>
+                <td>@book.Author</td>
+                <td>@(book.IsAvailable ? "Yes" : "No")</td>
+                <td>
+                    <a href="/Books/Edit/@book.Id" class="btn btn-warning btn-sm">Edit</a>
+                    <a href="/Books/Delete/@book.Id" class="btn btn-danger btn-sm">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

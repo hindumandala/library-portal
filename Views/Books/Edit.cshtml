@@ -1,0 +1,25 @@
+@model LibraryPortal.Models.Book
+
+@{
+    ViewData["Title"] = "Edit Book";
+}
+
+<h2>Edit Book</h2>
+
+<form method="post">
+    <input type="hidden" name="Id" value="@Model.Id" />
+    <div class="mb-3">
+        <label>Title</label>
+        <input type="text" name="Title" value="@Model.Title" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label>Author</label>
+        <input type="text" name="Author" value="@Model.Author" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label>Available</label>
+        <input type="checkbox" name="IsAvailable" value="true" @(Model.IsAvailable ? "checked" : "") /> Yes
+    </div>
+    <button type="submit" class="btn btn-warning">Update</button>
+    <a href="/Books" class="btn btn-secondary ms-2">Back</a>
+</form>
