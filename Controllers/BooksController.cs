@@ -1,9 +1,12 @@
 using Microsoft.AspNetCore.Mvc;
 using LibraryPortal.Data;
 using LibraryPortal.Models;
+using System.Linq;
+using Microsoft.AspNetCore.Authorization;
+
 
 namespace LibraryPortal.Controllers;
-
+[Authorize] 
 public class BooksController : Controller
 {
     private readonly LibraryContext _context;
@@ -14,11 +17,19 @@ public class BooksController : Controller
     }
 
     // GET: /Books
-    public IActionResult Index()
+    public IActionResult Index(string search)
+{
+    var books = _context.Books.ToList();
+    
+    if(!string.IsNullOrEmpty(search))
     {
-        var books = _context.Books.ToList();
-        return View(books);
+        books = books.Where(b => b.Title.Contains(search, 
+               StringComparison.OrdinalIgnoreCase)).ToList();
     }
+    
+    ViewData["search"] = search;
+    return View(books);
+}
     // GET: /Books/Create (show empty form)
 public IActionResult Create()
 {

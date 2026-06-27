@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4tjJGmo18/w=",
+  "dgSpecHash": "XxXG6v3kKGk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ramre\\Downloads\\Desktop\\dotnet-projects\\LibraryPortal\\LibraryPortal.csproj",
+  "projectFilePath": "C:\\Users\\ramre\\Downloads\\Desktop\\dotnet-projects\\libraryportal\\LibraryPortal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ramre\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\ramre\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
@@ -54,6 +54,7 @@
     "C:\\Users\\ramre\\.nuget\\packages\\humanizer.core.zh-cn\\2.14.1\\humanizer.core.zh-cn.2.14.1.nupkg.sha512",
     "C:\\Users\\ramre\\.nuget\\packages\\humanizer.core.zh-hans\\2.14.1\\humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "C:\\Users\\ramre\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
+    "C:\\Users\\ramre\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\10.0.9\\microsoft.aspnetcore.identity.entityframeworkcore.10.0.9.nupkg.sha512",
     "C:\\Users\\ramre\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.24\\microsoft.aspnetcore.razor.language.6.0.24.nupkg.sha512",
     "C:\\Users\\ramre\\.nuget\\packages\\microsoft.build\\17.11.48\\microsoft.build.17.11.48.nupkg.sha512",
     "C:\\Users\\ramre\\.nuget\\packages\\microsoft.build.framework\\18.0.2\\microsoft.build.framework.18.0.2.nupkg.sha512",
@@ -121,9 +122,9 @@
       "code": "NU1901",
       "level": "Warning",
       "message": "Package 'NuGet.Packaging' 6.12.1 has a known low severity vulnerability, https://github.com/advisories/GHSA-g4vj-cjjj-v7hg",
-      "projectPath": "C:\\Users\\ramre\\Downloads\\Desktop\\dotnet-projects\\LibraryPortal\\LibraryPortal.csproj",
+      "projectPath": "C:\\Users\\ramre\\Downloads\\Desktop\\dotnet-projects\\libraryportal\\LibraryPortal.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\ramre\\Downloads\\Desktop\\dotnet-projects\\LibraryPortal\\LibraryPortal.csproj",
+      "filePath": "C:\\Users\\ramre\\Downloads\\Desktop\\dotnet-projects\\libraryportal\\LibraryPortal.csproj",
       "libraryId": "NuGet.Packaging",
       "targetGraphs": [
         "net10.0"
@@ -133,9 +134,9 @@
       "code": "NU1901",
       "level": "Warning",
       "message": "Package 'NuGet.Protocol' 6.12.1 has a known low severity vulnerability, https://github.com/advisories/GHSA-g4vj-cjjj-v7hg",
-      "projectPath": "C:\\Users\\ramre\\Downloads\\Desktop\\dotnet-projects\\LibraryPortal\\LibraryPortal.csproj",
+      "projectPath": "C:\\Users\\ramre\\Downloads\\Desktop\\dotnet-projects\\libraryportal\\LibraryPortal.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\ramre\\Downloads\\Desktop\\dotnet-projects\\LibraryPortal\\LibraryPortal.csproj",
+      "filePath": "C:\\Users\\ramre\\Downloads\\Desktop\\dotnet-projects\\libraryportal\\LibraryPortal.csproj",
       "libraryId": "NuGet.Protocol",
       "targetGraphs": [
         "net10.0"
@@ -145,9 +146,9 @@
       "code": "NU1903",
       "level": "Warning",
       "message": "Package 'SQLitePCLRaw.lib.e_sqlite3' 2.1.11 has a known high severity vulnerability, https://github.com/advisories/GHSA-2m69-gcr7-jv3q",
-      "projectPath": "C:\\Users\\ramre\\Downloads\\Desktop\\dotnet-projects\\LibraryPortal\\LibraryPortal.csproj",
+      "projectPath": "C:\\Users\\ramre\\Downloads\\Desktop\\dotnet-projects\\libraryportal\\LibraryPortal.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\ramre\\Downloads\\Desktop\\dotnet-projects\\LibraryPortal\\LibraryPortal.csproj",
+      "filePath": "C:\\Users\\ramre\\Downloads\\Desktop\\dotnet-projects\\libraryportal\\LibraryPortal.csproj",
       "libraryId": "SQLitePCLRaw.lib.e_sqlite3",
       "targetGraphs": [
         "net10.0"

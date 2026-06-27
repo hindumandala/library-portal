@@ -328,3 +328,5 @@ C:\Users\ramre\Downloads\Desktop\dotnet-projects\LibraryPortal\bin\Debug\net10.0
 C:\Users\ramre\Downloads\Desktop\dotnet-projects\LibraryPortal\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\ramre\Downloads\Desktop\dotnet-projects\LibraryPortal\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\ramre\Downloads\Desktop\dotnet-projects\LibraryPortal\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\ramre\Downloads\Desktop\dotnet-projects\libraryportal\obj\Debug\net10.0\LibraryPortal.sourcelink.json
+C:\Users\ramre\Downloads\Desktop\dotnet-projects\libraryportal\bin\Debug\net10.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ramre\\Downloads\\Desktop\\dotnet-projects\\LibraryPortal\\LibraryPortal.csproj": {}
+    "C:\\Users\\ramre\\Downloads\\Desktop\\dotnet-projects\\libraryportal\\LibraryPortal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ramre\\Downloads\\Desktop\\dotnet-projects\\LibraryPortal\\LibraryPortal.csproj": {
+    "C:\\Users\\ramre\\Downloads\\Desktop\\dotnet-projects\\libraryportal\\LibraryPortal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ramre\\Downloads\\Desktop\\dotnet-projects\\LibraryPortal\\LibraryPortal.csproj",
+        "projectUniqueName": "C:\\Users\\ramre\\Downloads\\Desktop\\dotnet-projects\\libraryportal\\LibraryPortal.csproj",
         "projectName": "LibraryPortal",
-        "projectPath": "C:\\Users\\ramre\\Downloads\\Desktop\\dotnet-projects\\LibraryPortal\\LibraryPortal.csproj",
+        "projectPath": "C:\\Users\\ramre\\Downloads\\Desktop\\dotnet-projects\\libraryportal\\LibraryPortal.csproj",
         "packagesPath": "C:\\Users\\ramre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ramre\\Downloads\\Desktop\\dotnet-projects\\LibraryPortal\\obj\\",
+        "outputPath": "C:\\Users\\ramre\\Downloads\\Desktop\\dotnet-projects\\libraryportal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ramre\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -46,6 +46,10 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[10.0.9, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
