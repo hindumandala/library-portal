@@ -31,28 +31,31 @@
             <th>Title</th>
             <th>Author</th>
             <th>Available</th>
+             <th>Borrowed By</th> 
             <th>Action</th>
         </tr>
     </thead>
-    <tbody>
-        @foreach(var book in Model)
-        {
-            <tr>
-                <td>@book.Title</td>
-                <td>@book.Author</td>
-                <td>@if(book.IsAvailable)
+   <tbody>
+    @foreach(var book in Model)
+    {
+        <tr>
+            <td>@book.Title</td>
+            <td>@book.Author</td>
+            <td>@(book.IsAvailable ? "Yes" : "No")</td>
+            <td>@(book.BorrowedBy ?? "-")</td>
+            <td>
+                @if(book.IsAvailable)
                 {
                     <a href="/Books/Borrow/@book.Id" class="btn btn-success btn-sm">Borrow</a>
                 }
                 else
                 {
-                   <a href="/Books/Return/@book.Id" class="btn btn-warning btn-sm">Return</a>
-                   <small class="text-muted">by @book.BorrowedBy</small>
+                    <a href="/Books/Return/@book.Id" class="btn btn-info btn-sm">Return</a>
                 }
-                   <a href="/Books/Edit/@book.Id" class="btn btn-warning btn-sm">Edit</a>
-                   <a href="/Books/Delete/@book.Id" class="btn btn-danger btn-sm">Delete</a>
-                </td>
-            </tr>
-        }
-    </tbody>
+                <a href="/Books/Edit/@book.Id" class="btn btn-warning btn-sm">Edit</a>
+                <a href="/Books/Delete/@book.Id" class="btn btn-danger btn-sm">Delete</a>
+            </td>
+        </tr>
+    }
+</tbody>
 </table>
