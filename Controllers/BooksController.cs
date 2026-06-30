@@ -76,4 +76,29 @@ public IActionResult Delete(int id)
     _context.SaveChanges();
     return RedirectToAction("Index");
 }
+// GET: /Books/Borrow/1
+public IActionResult Borrow(int id)
+{
+    var book = _context.Books.Find(id);
+    if(book != null && book.IsAvailable)
+    {
+        book.IsAvailable = false;
+        book.BorrowedBy = User.Identity.Name;  // current logged in user
+        _context.SaveChanges();
+    }
+    return RedirectToAction("Index");
+}
+
+// GET: /Books/Return/1
+public IActionResult Return(int id)
+{
+    var book = _context.Books.Find(id);
+    if(book != null)
+    {
+        book.IsAvailable = true;
+        book.BorrowedBy = null;
+        _context.SaveChanges();
+    }
+    return RedirectToAction("Index");
+}
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ramre\\Downloads\\Desktop\\dotnet-projects\\libraryportal\\LibraryPortal.csproj": {}
+    "C:\\Users\\ramre\\Downloads\\Desktop\\dotnet-projects\\LibraryPortal\\LibraryPortal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ramre\\Downloads\\Desktop\\dotnet-projects\\libraryportal\\LibraryPortal.csproj": {
+    "C:\\Users\\ramre\\Downloads\\Desktop\\dotnet-projects\\LibraryPortal\\LibraryPortal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ramre\\Downloads\\Desktop\\dotnet-projects\\libraryportal\\LibraryPortal.csproj",
+        "projectUniqueName": "C:\\Users\\ramre\\Downloads\\Desktop\\dotnet-projects\\LibraryPortal\\LibraryPortal.csproj",
         "projectName": "LibraryPortal",
-        "projectPath": "C:\\Users\\ramre\\Downloads\\Desktop\\dotnet-projects\\libraryportal\\LibraryPortal.csproj",
+        "projectPath": "C:\\Users\\ramre\\Downloads\\Desktop\\dotnet-projects\\LibraryPortal\\LibraryPortal.csproj",
         "packagesPath": "C:\\Users\\ramre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ramre\\Downloads\\Desktop\\dotnet-projects\\libraryportal\\obj\\",
+        "outputPath": "C:\\Users\\ramre\\Downloads\\Desktop\\dotnet-projects\\LibraryPortal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ramre\\AppData\\Roaming\\NuGet\\NuGet.Config"
